@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville',serif;
+  color: #4d403a;
+}
+
+
+button {
+  background-color: #8d6e63 !important; /* Maro deschis */
+  border:  0.5px solid;
+  font-family: 'Libre Baskerville',serif;
+  font-style: italic;
+  border-radius: 50%;
+
+}
+
+button:hover {
+  background-color: #6d4c41 !important; /* Maro închis */
+}
+
+
+.login-container {
+  background-color: rgb(242, 233, 228);
+}
+
+.image-column {
+  background-image: url("https://www.vam.ac.uk/on/demandware.static/-/Sites-VAM_Storefront/default/dw88c1556f/images/category/jewellery/jewellery_homepage_desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.form-column {
+  background-color: #fdfbf9;
+}
+
+.form-box {
+  max-width: 400px;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Libre Baskerville', serif;
+  color: #4d403a;
+}
+
+
+
+.navbar {
+  /* background-color: rgb(188, 157, 144) !important; Maro deschis */
+  background-color: #8d6e63; /* Maro deschis */
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.navbar-brand, .nav-link {
+  color: #f1f1f1 !important;
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+
+.nav-link:hover {
+  color: #d3a87c !important; /* Auriu deschis */
+}
+
+
+.Card-Body {
+  background-color: #f2e9e2; /* Culoare fundal crem */
+  padding: 15px;
+  border-radius: 0 0 8px 8px; /* Colțuri rotunjite doar jos */
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Efect ușor de adâncime */
+}
+
+.cart-item {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.total-section {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.checkout-form {
+  margin-top: 30px;
+}
+
+.cart-item-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-item-image {
+  max-width: 80px;
+  height: auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+
+/*  */
+
+.tabsWrapper {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #d3a87c;
+  margin-bottom: 20px;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.categoryTab {
+  padding: 8px 16px; /* Dimensiuni reduse */
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: #f9f6f4;
+  border-radius: 20px;
+  font-size: 14px; /* Dimensiune font ajustată */
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  color: #8d6e63;
+  transition: all 0.2s ease;
+}
+
+.categoryTab.selected {
+  border: 1px solid #a67c52;
+  background-color: #f5e4d7;
+  font-weight: bold;
+  color: #5d4037;
+  box-shadow: 0 4px 8px #a57350;
+}
+
+.categoryTab:hover {
+  background-color: #f5e4d7;
+  color: #5d4037;
+}
+
+
+/* sortare */
+.dataSortingWrapper {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dataSortingLabel {
+  font-weight: bold;
+  font-size: 16=4px;
+  color: #5d4037; /* Maro elegant */
+  font-family: 'Libre Baskerville', serif;
+}
+
+.dataSortingSelect {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #a67c52; /* Maro deschis */
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+  background-color: #f9f6f4;
+  color: #5d4037; /* Maro elegant */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.dataSortingSelect:hover {
+  border-color: #6d4c41; /* Maro închis */
+}
+
+.dataSortingSelect:focus {
+  outline: none;
+  border-color: #a57350; /* Maro închis elegant */
+  box-shadow: 0 0 4px rgba(165, 115, 80, 0.8);
+}

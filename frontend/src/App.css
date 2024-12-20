@@ -1,0 +1,27 @@
+.about-us-container {
+    padding: 50px;
+    background-color: #f9f6f4;
+    font-family: 'Libre Baskerville', serif;
+    color: #4d403a;
+  }
+  
+  .about-us-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .about-us-text, .about-us-image {
+    flex: 1;
+  }
+  
+  .about-us-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
