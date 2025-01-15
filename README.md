@@ -1,5 +1,7 @@
 Proiect AE - Instrucțiuni de Configurare
+
 Cerințe Prealabile
+
 Asigură-te că Node.js este instalat pe mașina ta locală.
 
 Configurare și Rulare a Aplicației
