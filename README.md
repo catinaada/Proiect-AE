@@ -23,6 +23,7 @@ npm install
 3. Pornește Serverul Backend
 Navighează înapoi în directorul backend:
 cd ../backend
+
 Pornește serverul backend:
 npm run start
 
@@ -31,6 +32,7 @@ Dacă serverul pornește corect, terminalul va afișa log-uri care confirmă ini
 4. Pornește Aplicația Frontend
 Navighează în directorul frontend:
 cd ../frontend
+
 Pornește aplicația frontend:
 npm run dev
 
