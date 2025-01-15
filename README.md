@@ -1,8 +1,8 @@
-##Proiect AE - Instrucțiuni de Configurare
+Proiect AE - Instrucțiuni de Configurare
 Cerințe Prealabile
 Asigură-te că Node.js este instalat pe mașina ta locală.
 
-#Configurare și Rulare a Aplicației
+Configurare și Rulare a Aplicației
 1. Clonează Repository-ul
 Clonează proiectul din repository-ul GitHub și deschide-l într-un editor de cod, cum ar fi Visual Studio Code.
 
