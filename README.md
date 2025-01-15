@@ -9,7 +9,7 @@ Configurare și Rulare a Aplicației
 Clonează proiectul din repository-ul GitHub și deschide-l într-un editor de cod, cum ar fi Visual Studio Code.
 
 git clone https://github.com/catinaada/Proiect-AE.git
-cd Proiect-AE
+ cd Proiect-AE
 
 2. Instalează Dependențele
 Navighează în directorul backend din terminal.
