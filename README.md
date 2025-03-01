@@ -1,4 +1,6 @@
-Proiect AE - Instrucțiuni de Configurare
+Proiect AE - Site web - Magazin de bijuterii
+
+#Instrucțiuni de Configurare
 
 Cerințe Prealabile
 
